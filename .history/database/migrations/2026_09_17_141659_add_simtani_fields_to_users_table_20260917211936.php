@@ -1,0 +1,5 @@
+print("=== DISTRIBUSI is_spoiler ===")
+print(df['is_spoiler'].value_counts())
+print()
+print("Persentase:")
+print(df['is_spoiler'].value_counts(normalize=True) * 100)
